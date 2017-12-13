@@ -12,6 +12,10 @@ public class Greeting {
         return greeting;
     }
 
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
